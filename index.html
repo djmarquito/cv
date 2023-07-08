@@ -1,46 +1,48 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
   <title>Marcos Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <table cellspacing="20">
+<center>
+  <table id="table1" cellspacing="20">
     <tr>
-      <td>
-        <img src="images/Marcos-modified.png" width="150" alt="Marcos profile picture">
+      <td class="topTD">
+        <img src="images/Marcos-modified.png" 
+         
+        alt="Marcos profile picture">
       </td>
-      <td>
+      <td class="topTD">
         <h1>Marcos Orza Ramos</h1>
-        <p><em>Electronics Technician at <strong><a href="https://www.adcocircuits.com/">ADCO Circuits</a></strong></em></p>
-        <p>I work as a test technician testing circuit boards. </p>
+        <p><em>Electronics Technician at <strong><a href="https://www.adcocircuits.com/">ADCO Circuits</a></strong></em><br />
+        I work as a test technician testing circuit boards. </p>
       </td>
     </tr>
   </table>
 
-
-  <hr size="3" noshade>
+  <hr id="tophr">
+  
   <h3>Education</h3>
-  <ul>
-    <li>Electronics Engineering at "Instituto Technologico de PR"</li>
-    <li>High School Diploma at <a href="https://www.youtube.com/watch?v=3CYz_bFo2l4">"Colegio Ponceno de PR"</a></li>
-  </ul>
+  <table  class="table">
+    <tr><td>Electronics Engineering: </td><td> <a href="https://www.facebook.com/Instituto-Tecnol%C3%B3gico-de-Puerto-Rico-Recinto-de-Ponce-108328674250267/?ref=page_internal">"Instituto Technologico de Puerto Rico"</a></td><tr>
+    <tr><td>High School Diploma: </td><td> <a href="https://www.youtube.com/watch?v=3CYz_bFo2l4">"Colegio Ponceno de Puerto Rico"</a></td><tr>
+  </table>
 
-  <hr size="3" noshade>
+  <hr>
 
   <h3>Work Experience</h3>
-  <table cellspacing ="10">
+  <table class="table" cellspacing ="10">
     <tr>
       <td>
-        2005-2022
+        2005-2023
       </td>
       <td>
-        <a href="https://www.adcocircuits.com/">
-          ADCO Circuits
-        </a>
-         - Electronics Technician
+        <a href="https://www.adcocircuits.com/">ADCO Circuits</a>
+        - Electronics Technician
       </td>
     </tr>
     <tr>
@@ -48,9 +50,8 @@
       1997-2005
       </td>
       <td>
-        <a href="https://www.youtube.com/watch?v=m-LXg_fqPG8">
-          Storagetek
-        </a> - Electronics Technician
+        <a href="https://www.youtube.com/watch?v=m-LXg_fqPG8">Storagetek</a>
+         - Electronics Technician
       </td>
     </tr>
     <tr>
@@ -58,34 +59,39 @@
       1995-1997
       </td>
       <td>
-        <a href="https://www.opendi.com.pr/ponce/45121.html">
-          Bill's TV
-        </a> - Repairing TVs
+        <a href="https://www.opendi.com.pr/ponce/45121.html">Bill's TV</a>
+         - Repairing TVs
       </td>
     </tr>
   </table>
-<hr size="3" noshade>
-
-<h3>Skills</h3>
-<table cellspacing="10">
+<hr>
+                                
+<table class="table" cellspacing="0">
+  <th><h3>Programming Skills<h3></th>
+  
   <tr>
-    <td>HTML</td>
-    <td>&#11088;&#11088;&#11088;</td>
+    <td id="nested">
+      <table id="table2">
+        <td>HTML</td>
+        <td>&#11088;&#11088;&#11088;</td>
   </tr>
+
   <tr>
     <td>CSS</td>
     <td>⭐</td>
   </tr>
+  
   <tr>
     <td>Javascript</td>
     <td>&#11088;&#11088;</td>
   </tr>
-</table>
 
-<hr size="3" noshade>
-  <a href="hobbies.html">My hobbies</a>
-  <br>
-  <a href="contact-me.html">Contact me</a>
+</table></table>
+
+<hr><br>
+  <a href="./hobbies.html">My hobbies</a>
+  <br><br>
+  <a href="./contact-me.html">Contact me</a>
 </body>
 
 </html>

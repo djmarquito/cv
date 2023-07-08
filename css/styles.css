@@ -1,0 +1,22 @@
+body {
+  background-color: #EAF6F6;
+  font-size: 2.5vw;
+  }
+
+img {
+  width: 14vw;
+  margin-top: 2vw;
+  }
+
+hr {
+  border-style: none;
+  border-top: dotted 1vw;
+  border-color: lightgrey;
+  width: 10vw;
+  }
+
+H1, H3{color: #66BFBF}
+
+.table{margin-bottom: 3vw;}
+
+#tophr {margin: 0px;}
