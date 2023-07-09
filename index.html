@@ -3,13 +3,23 @@
 
 <head>
   <meta charset="utf-8">
+  
+  <!-- to make the media query work on the chrome developer tools -->
+  <meta name="viewport" content="width=device-width">
+  
   <title>Marcos Personal Site</title>
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Fonts: -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat&family=Fasthand&family=Instrument+Serif&family=Kalam&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body class="normal-font">
 <center>
-  <table id="table1" cellspacing="20">
+  <table id="table1" cellspacing="10">
     <tr>
       <td class="topTD">
         <img src="images/Marcos-modified.png" 
@@ -17,25 +27,25 @@
         alt="Marcos profile picture">
       </td>
       <td class="topTD">
-        <h1>Marcos Orza Ramos</h1>
+        <h1 class="name-font">Marcos Orza Ramos</h1>
         <p><em>Electronics Technician at <strong><a href="https://www.adcocircuits.com/">ADCO Circuits</a></strong></em><br />
         I work as a test technician testing circuit boards. </p>
       </td>
     </tr>
   </table>
 
-  <hr id="tophr">
+  <hr>
   
-  <h3>Education</h3>
-  <table  class="table">
+  <h3 class="title-font">Education</h3>
+  <table>
     <tr><td>Electronics Engineering: </td><td> <a href="https://www.facebook.com/Instituto-Tecnol%C3%B3gico-de-Puerto-Rico-Recinto-de-Ponce-108328674250267/?ref=page_internal">"Instituto Technologico de Puerto Rico"</a></td><tr>
     <tr><td>High School Diploma: </td><td> <a href="https://www.youtube.com/watch?v=3CYz_bFo2l4">"Colegio Ponceno de Puerto Rico"</a></td><tr>
   </table>
 
   <hr>
 
-  <h3>Work Experience</h3>
-  <table class="table" cellspacing ="10">
+  <h3 class="title-font">Work Experience</h3>
+  <table cellspacing ="10">
     <tr>
       <td>
         2005-2023
@@ -66,12 +76,12 @@
   </table>
 <hr>
                                 
-<table class="table" cellspacing="0">
-  <th><h3>Programming Skills<h3></th>
+<table cellspacing="0">
+  <th><h3 class="title-font" id="last-table">Programming Skills</h3></th>
   
   <tr>
     <td id="nested">
-      <table id="table2">
+      <table>
         <td>HTML</td>
         <td>&#11088;&#11088;&#11088;</td>
   </tr>
